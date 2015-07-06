@@ -34,6 +34,14 @@
 
   <profiles>
     <profile>
+      <id>nodeclipse.package.enide.product</id>
+      <modules>
+        <module>packages/nodeclipse.package.enide</module>
+        <module>packages/nodeclipse.package.enide.feature</module>
+        <module>packages/nodeclipse.package.enide.product</module>
+      </modules>
+    </profile>
+    <profile>
       <id>epp.package.automotive</id>
       <modules>
         <module>packages/org.eclipse.epp.package.automotive</module>

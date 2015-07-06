@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="nodeclipse.package.enide.feature"
+      label="Enide 2015"
+      version="4.5.0.qualifier"
+      provider-name="Nodeclipse"
+      plugin="nodeclipse.package.enide"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description url="http://eclipse.org/epp">
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <url>
+      <discovery label="Mars" url="http://download.eclipse.org/releases/mars/"/>
+      <discovery label="Eclipse Platform 4.5" url="http://download.eclipse.org/eclipse/updates/4.5"/>
+   </url>
+
+   <includes
+         id="org.eclipse.platform"
+         version="0.0.0"
+         search-location="both"/>
+
+   <requires>
+      <import feature="org.eclipse.platform"/>
+      <import feature="org.eclipse.platform.source"/>
+      <import feature="org.eclipse.rcp"/>
+      <import feature="org.eclipse.rcp.source"/>
+      <import feature="org.eclipse.jdt"/>
+      <import feature="org.eclipse.jdt.source"/>
+      <import feature="org.eclipse.pde"/>
+      <import feature="org.eclipse.pde.source"/>
+      <!--
+      <import feature="org.eclipse.cvs"/>
+      <import feature="org.eclipse.cvs.source"/>
+      -->
+      <import feature="org.eclipse.equinox.p2.user.ui"/>
+      <import feature="org.eclipse.help"/>
+      <import feature="org.eclipse.egit"/>
+      <import feature="org.eclipse.egit.import"/>
+      <import feature="org.eclipse.egit.mylyn"/>
+      <import feature="org.eclipse.jgit"/>
+      <import feature="org.eclipse.jgit.http.apache"/>
+      <import feature="org.eclipse.m2e.feature"/>
+      <import feature="org.eclipse.m2e.logback.feature"/>
+      <import feature="org.eclipse.mylyn.bugzilla_feature"/>
+      <import feature="org.eclipse.mylyn.builds"/>
+      <import feature="org.eclipse.mylyn.commons.identity"/>
+      <import feature="org.eclipse.mylyn.commons.notifications"/>
+      <import feature="org.eclipse.mylyn.commons.repositories.http"/>
+      <import feature="org.eclipse.mylyn.commons.repositories"/>
+      <import feature="org.eclipse.mylyn.commons"/>
+      <import feature="org.eclipse.mylyn.discovery"/>
+      <import feature="org.eclipse.mylyn.gerrit.feature"/>
+      <import feature="org.eclipse.mylyn.gerrit.dashboard.feature"/>
+      <import feature="org.eclipse.mylyn.git"/>
+      <import feature="org.eclipse.mylyn.hudson"/>
+      <import feature="org.eclipse.mylyn.monitor"/>
+      <import feature="org.eclipse.mylyn.reviews.feature"/>
+      <import feature="org.eclipse.mylyn.team_feature"/>
+      <import feature="org.eclipse.mylyn.versions"/>
+      <import feature="org.eclipse.mylyn.wikitext_feature"/>
+      <import feature="org.eclipse.mylyn_feature"/>
+      <import feature="org.eclipse.recommenders.rcp.feature"/>
+      <import feature="org.eclipse.recommenders.snipmatch.rcp.feature"/>
+      <import feature="org.eclipse.recommenders.mylyn.rcp.feature"/>
+      <import feature="org.eclipse.epp.package.common.feature"/>
+      
+      <import feature="org.eclipse.rse"/>
+      <import feature="org.eclipse.rse.useractions"/>
+      <import feature="org.eclipse.tm.terminal.feature"/>
+      
+      
+      <import feature="org.eclipse.wst.common.fproj"/>
+      <import feature="org.eclipse.wst.jsdt.feature"/>
+      <import feature="org.eclipse.wst.xml_ui.feature"/>
+      <import feature="org.eclipse.wst.web_ui.feature"/>
+      <import feature="org.eclipse.wst.server_adapters.feature"/>
+      <import feature="org.eclipse.wst.xsl.feature"/>
+      <import feature="org.eclipse.jst.common.fproj.enablement.jdt"/>
+      <import feature="org.eclipse.jst.server_ui.feature"/>
+      <import feature="org.eclipse.jst.server_adapters.feature"/>
+      <import feature="org.eclipse.jst.server_adapters.ext.feature"/>
+      <import feature="org.eclipse.jst.web_ui.feature"/>
+      
+      <!-- for use with http://www.nodeclipse.org/updates/enide-2015/ -->
+      <!-- Nodeclipse-1 repo -->
+      <!-- Nodeclipse -->
+      <import feature="org.nodeclipse.enide.nodejs.feature"/>
+      <import feature="org.nodeclipse.pluginslist.feature"/>
+      <import feature="org.nodeclipse.phantomjs.feature"/>
+      <import feature="com.eclipsesource.jshint.feature"/>
+      <!-- Minimalist -->
+      <import feature="org.nodeclipse.enide.editors.gradle.feature"/>
+      <import feature="org.nodeclipse.enide.gradle.feature"/>
+      <import feature="org.dadacoalition.yedit"/>
+      <import feature="gitaddon.feature"/>
+      <!-- Enide Tools Collection -->
+      <import feature="markdown.editor.feature"/>
+      <import feature="code.satyagraha.gfm.viewer.feature"/>
+      <import feature="de.bastiankrol.startexplorer.feature"/>
+      <import feature="code.google.restclient.tool.feature"/>
+      <import feature="org.eclipse_icons.editor.feature"/>
+      <import feature="net.jeeeyul.pdetools.feature"/>
+      <import feature="net.sourceforge.shelled"/>
+      <!--
+      <import feature="org.sweetlemonade.eclipse.json.feature"/>
+      use jsonedit-feature
+      -->
+      <import feature="net.mihai-nita.ansicon"/>
+      <import feature="pm.eclipse.editbox.feature"/>
+      <import feature="zipeditor"/>
+      <!-- JavaTools -->
+      <import feature="jdt.spelling.feature"/>
+      <!-- General -->
+      <import feature="com.github.eclipsecolortheme.feature"/>
+      <!-- Other -->
+      <import feature="jsonedit-feature"/>
+      
+      <!-- https://github.com/angelozerr/eclipse-wtp-webresources -->
+      <import feature="org.eclipse.wst.html.webresources.feature"/>
+            
+      <!-- https://github.com/angelozerr/tern.java/blob/master/update-site/tern.repository/category.xml -->
+      <import feature="tern.eclipse.ide.server.nodejs.embed"/>
+      <import feature="tern.eclipse.ide.server.nodejs.embed.source"/>
+      <import feature="tern-feature"/>
+      <import feature="tern-feature.source"/>
+      <import feature="tern-jsdt-feature"/>
+      <import feature="tern-jsdt-feature.source"/>
+      <import feature="tern-server-nodejs-feature"/>
+      <import feature="tern-server-nodejs-feature.source"/>
+      <import feature="tern.eclipse.ide.tools.feature"/>
+      <import feature="tern.eclipse.ide.tools.feature.source"/>
+      <import feature="tern-linters-feature"/>
+      <import feature="tern-linters-feature.source"/>
+                              
+      <!-- https://github.com/angelozerr/angularjs-eclipse/blob/master/org.eclipse.angularjs.repository/category.xml 
+      <import feature="tern.eclipse.ide.server.nodejs.embed"/>
+      <import feature="tern-feature"/>
+      <import feature="tern-jsdt-feature"/>
+      <import feature="tern-server-nodejs-feature"/>
+      <import feature="tern-linters-feature"/>
+      -->
+      <import feature="angularjs-eclipse-feature"/>
+      <import feature="angularjs-eclipse-feature.source"/>
+      
+      <!-- https://github.com/spring-projects/eclipse-integration-gradle/blob/master/org.springsource.ide.eclipse.gradle.site/category.xml -->
+      <import feature="org.springsource.ide.eclipse.gradle.feature"/>
+      
+      <!-- more?
+      <import feature=""/>
+      <import feature=""/>
+      <import feature=""/>
+      -->
+            
+   </requires>
+
+   <plugin
+         id="nodeclipse.package.enide"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>
