@@ -1,3 +1,10 @@
+
+# Nodeclipse packages
+
+- Enide 2015
+
+based on Eclipse packaging project (EPP)
+
 The EPP Build
 =============
 
@@ -44,6 +51,7 @@ Available Profiles
 
 Each package uses its own profile:
 
+- nodeclipse.package.enide.product
 - epp.package.automotive
 - epp.package.committers
 - epp.package.cpp

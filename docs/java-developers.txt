@@ -1,0 +1,32 @@
+Eclipse IDE for Java Developers
+http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/marsr
+Detailed features list
+
+org.eclipse.egit
+org.eclipse.egit.import
+org.eclipse.egit.mylyn
+org.eclipse.epp.package.common.feature
+org.eclipse.equinox.p2.user.ui
+org.eclipse.help
+org.eclipse.jdt
+org.eclipse.jgit
+org.eclipse.m2e.feature
+org.eclipse.m2e.logback.feature
+org.eclipse.mylyn.bugzilla_feature
+org.eclipse.mylyn.context_feature
+org.eclipse.mylyn.git
+org.eclipse.mylyn.hudson
+org.eclipse.mylyn.ide_feature
+org.eclipse.mylyn.java_feature
+org.eclipse.mylyn.wikitext_feature
+org.eclipse.mylyn_feature
+org.eclipse.platform
+org.eclipse.rcp
+org.eclipse.recommenders.mylyn.rcp.feature
+org.eclipse.recommenders.rcp.feature
+org.eclipse.recommenders.snipmatch.rcp.feature
+org.eclipse.wb.core.feature
+org.eclipse.wb.core.ui.feature
+org.eclipse.wb.layout.group.feature
+org.eclipse.wb.swing.feature
+org.eclipse.wst.xml_ui.feature
